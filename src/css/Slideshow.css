@@ -1,0 +1,16 @@
+.slide-container
+{
+    margin: 100px 0px 100px 0px;
+    position: relative;
+    padding: 0px 10px 50px 10px;
+    text-align: center;
+    left: px;
+    top: 200px;
+
+    border-style: solid;
+}
+
+.image-container img{
+    height: 500px;
+    
+}

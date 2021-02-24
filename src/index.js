@@ -4,9 +4,21 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+class Doc extends React.Component{
+  componentDidMount(){
+    document.title = "Stankovski"
+  }
+
+  render(){
+    return(
+      <> </>
+    )
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Doc />
   </React.StrictMode>,
   document.getElementById('root')
 );
