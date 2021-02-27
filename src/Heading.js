@@ -60,7 +60,8 @@ export default function Heading() {
         <span className="gPanel" id="lPanela"><a target="_blank" rel="noreferrer" href="http://linkedin.com/in/stankovskialeksandar">My LinkedIn</a></span>
         <span className="gPanel" id="iPanela"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/friendlycoder/">My Instragram</a></span>
         <span className="gPanel" id="hPanela"><a target="_blank" rel="noreferrer" href="https://github.com/StankovskiA">My Github</a></span>
-
+        
+        <a id="projects" href="/projects">Check out my projects</a>
         </p>
         
      

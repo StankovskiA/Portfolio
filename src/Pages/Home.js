@@ -7,7 +7,7 @@ import AboutMe from '../AboutMe';
 
 
 function Home() {
- 
+   
   return (
     <>
     <div className="App">
@@ -16,9 +16,9 @@ function Home() {
     <AboutMe />
     <Services />
     <Slideshow />
-  
     
     </div>
+    <button  id="bttn">Projects</button>
     </>
   );
 }
