@@ -18,7 +18,7 @@ function Home() {
     <Slideshow />
     
     </div>
-    <button  id="bttn">Projects</button>
+    
     </>
   );
 }
