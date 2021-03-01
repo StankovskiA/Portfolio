@@ -16,7 +16,7 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects">Projects</Link> 
           </li>
         </ul>
       </header>

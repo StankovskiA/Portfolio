@@ -18,7 +18,7 @@ function Home() {
     <Slideshow />
     
     </div>
-    
+     
     </>
   );
 }

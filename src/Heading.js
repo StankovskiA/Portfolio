@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
 function clicked1()
 {
   var x = document.getElementById('gPanela');
@@ -30,7 +32,7 @@ function clicked3()
   var x = document.getElementById('hPanela');
   if (x.style.display === "none") {
     x.style.display = "inline";
-  } else {
+  } else { 
     x.style.display = "none";
   }
 }
@@ -61,7 +63,7 @@ export default function Heading() {
         <span className="gPanel" id="iPanela"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/friendlycoder/">My Instragram</a></span>
         <span className="gPanel" id="hPanela"><a target="_blank" rel="noreferrer" href="https://github.com/StankovskiA">My Github</a></span>
         
-        <a id="projects" href="/projects">Check out my projects</a>
+        <Link id="projects" href="\projects">Check out my projects</Link>
         </p>
         
      
